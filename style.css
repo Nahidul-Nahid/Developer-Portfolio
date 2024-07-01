@@ -16,7 +16,14 @@ body{
 }
 .primary-description{
     color: #757575;
+    line-height: 1.8em;
 }
+.primary-heading-3{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
 
 
 /* header style */
@@ -92,3 +99,41 @@ body{
 .banner-text{
     max-width: 500px;
 }
+
+/* main area styles */
+.main{
+    margin: 0 180px;
+}
+.about-me{
+    background-color: #FFF8F3;
+    margin: 100px 0;
+    padding: 90px 210px;
+}
+.main .primary-description{
+    text-align: center;
+    margin: 40px 0;
+}
+.about-me-info .info-title{
+    color: #757575;
+    margin: 0 0 10px 0;
+}
+.about-me-info .info-content{
+    color: #474747;
+    font-weight: 700;
+    margin: 0;
+}
+.main .primary-heading-3{
+    text-align: center;
+}
+.about-me-info{
+    display: flex;
+    justify-content: space-around;
+}
+.info-description{
+    text-align: center;
+}
+#what-i-do-description{
+    padding: 0 210px;
+}
+
+
