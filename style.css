@@ -11,7 +11,7 @@ body{
     background-color: #FD6E0A;
     border-radius: 5px;
     border: 0;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 700;
 }
 .primary-description{
@@ -22,9 +22,8 @@ body{
     font-size: 35px;
     font-weight: 700;
     margin: 0;
+    color: #181818;
 }
-
-
 
 /* header style */
 .header{
@@ -39,7 +38,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 130px 0 180px;
+    padding: 0 130px 0 180px;
 }
 .header-nav ul{
     display: flex;
@@ -102,7 +101,7 @@ body{
 
 /* main area styles */
 .main{
-    margin: 0 180px;
+    padding: 0 180px;
 }
 .main section,footer{
     margin-top: 100px;
@@ -198,4 +197,45 @@ body{
 .resume-button{
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer styles */
+.footer-container{
+    display: flex;
+    gap: 150px;
+    background-color: #FFF8F3;
+    padding: 100px 180px 80px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-heading{
+    margin-bottom: 30px;
+}
+.footer-description{
+    max-width: 660px;
+    margin: 0 0 30px 0;
+    color: #474747;
+    font-size: 14px;
+}
+.footer-icon a{
+    margin-right: 20px;
+}
+.form-input{
+    display: block;
+    margin-bottom: 15px;
+    width: 92%;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px;
+}
+.input-message{
+    padding-bottom: 130px;
+}
+.form-container .primary-button{
+    padding: 15px 30px;
+}
+.form-container ::placeholder{
+    color: #757575;
+    font-size: 14px;
 }
